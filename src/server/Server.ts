@@ -1,4 +1,4 @@
-import express from "express";
+import express from 'express';
 
 //Criando a instância do servidor
 const server = express();
