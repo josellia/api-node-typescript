@@ -10,7 +10,8 @@
     "http-status-codes": "^2.2.0"
   },
   "scripts": {
-    "dev": "yarn ts-node-dev ./src/index.ts"
+    "dev": "yarn ts-node-dev ./src/index.ts",
+    "build": "yarn tsc"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
